@@ -27,7 +27,7 @@ jobs:  # Aqui definimos os "trabalhos" que serão feitos
     - name: Rodar testes  # Etapa para rodar os testes
       run: |  # Executa comandos no terminal
         echo "Simulando testes..."  # Apenas uma mensagem no log
-        php -l login.php  # Comando PHP para verificar se o arquivo login.php não tem erros de sintaxe
+        php -l index.php  # Comando PHP para verificar se o arquivo login.php não tem erros de sintaxe
 
     - name: Build do projeto  # Etapa de "build" (montar o projeto)
       run: |  # Executa comandos no terminal
