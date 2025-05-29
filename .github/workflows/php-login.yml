@@ -1,3 +1,5 @@
+# Workflow recriado
+
 name: CI/CD PHP Login  # Nome da automação que vai aparecer no GitHub Actions
 
 on:  # Define quando a automação vai ser executada
