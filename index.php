@@ -4,7 +4,7 @@
 session_start();
 
 $valid_username = "admin";
-$valid_password = "123456";
+$valid_password = "novaSenha";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"] ?? '';
